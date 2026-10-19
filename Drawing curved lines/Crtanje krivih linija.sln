@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crtanje krivih linija", "Crtanje krivih linija\Crtanje krivih linija.csproj", "{996A6619-9593-4AFD-8A7D-2FD024B69747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996A6619-9593-4AFD-8A7D-2FD024B69747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996A6619-9593-4AFD-8A7D-2FD024B69747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996A6619-9593-4AFD-8A7D-2FD024B69747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996A6619-9593-4AFD-8A7D-2FD024B69747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C1CFA2E-F578-4C85-8C7E-CCAA2DC84812}
+	EndGlobalSection
+EndGlobal
