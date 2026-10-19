@@ -1,83 +1,213 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="WinForms Learning Path">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="WinForms Learning Path - C# Windows Forms: from an empty form to complete desktop applications" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyMWIwYzA0Ni1mMWI0LTQ2Y2ItODkxMy0xMGU3ZTBmYWZlZTAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaKaCr8dtYMIRPcxCefZrJgMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5M2Y0NzE2My1mY2Q2LTQxZGQtYTMwNC0zNmE1NTkxYTY4NGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNofm+Bv+boFHcNwGW4aITrgAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggH7GhFA432x0+GJakJ/F/p0Sa7TiaY3c3y6S8HciuMRKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIPL18bi+RoyOhMtwH5MLkEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIBwe9yrmpb/mmpiSyH96aZF22JzJiD6xuWHZ+6VnQi61ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEPZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjIxYjBjMDQ2LWYxYjQtNDZjYi04OTEzLTEwZTdlMGZhZmVlMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ2YTM5MzQyLTFkNmUtNGYyOS1iNTU1LTk0ZjdkNmExYzBjYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAfsaEUDjfbHT4YlqQn8X+nRJrtOJpjdzfLpLwdyK4xEqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg2Bho0J1iizQ0QWbrxIwASPn/+oSU3tRXbFrifEPaTZuiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggh/cwVpPcFS9Ez5m4jGhuJ5Su8+y9E03Vp+EAN4nhPEd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKH1aSMRGQznGk6mOl0XCjjUj7nluwp0Wuo9pMAdiTuvOEaq6L9Ud1ifcLqe8IXSf05WlXpRBTraAwFv/d/4FVk=</c2pa:manifest></metadata>
+  <title>WinForms Learning Path</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06111f"/><stop offset="0.55" stop-color="#0b2a4d"/><stop offset="1" stop-color="#0078d4"/>
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.55" stop-color="#0d1430"/>
+      <stop offset="1" stop-color="#101a3d"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
-      <stop offset="0" stop-color="#4cc2ff" stop-opacity="0.40"/><stop offset="1" stop-color="#4cc2ff" stop-opacity="0"/>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2f7cff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#2f7cff" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    <radialGradient id="glowP" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8a5cff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8a5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8dcff"/>
+    </linearGradient>
+    <linearGradient id="gSub" gradientUnits="userSpaceOnUse" x1="62" y1="0" x2="440" y2="0">
+      <stop offset="0" stop-color="#4aa3ff"/>
+      <stop offset="0.5" stop-color="#7f8cff"/>
+      <stop offset="1" stop-color="#a47bff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="gLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f7cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6f8dff"/>
+      <stop offset="1" stop-color="#a47bff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6aa8ff"/>
+      <stop offset="1" stop-color="#a98bff"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#6f8dff" opacity="0.16"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/></filter>
-    <clipPath id="bar"><rect x="714" y="188" width="392" height="14" rx="7"/></clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
+    <clipPath id="edClip"><rect x="706" y="28" width="426" height="190" rx="10"/></clipPath>
+    <clipPath id="gdiClip"><rect x="946" y="164" width="214" height="152" rx="10"/></clipPath>
   </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect width="1200" height="320" fill="url(#glow)"/>
 
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
-    <g filter="url(#shadow)">
-      <rect x="690" y="38" width="440" height="222" rx="8" fill="#f3f3f3"/>
+  <style>
+    text { font-family: 'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+    .orbA { animation: driftA 14s ease-in-out infinite alternate; }
+    .orbB { animation: driftB 17s ease-in-out infinite alternate; }
+    @keyframes driftA { to { transform: translate(70px, -30px); } }
+    @keyframes driftB { to { transform: translate(-80px, 30px); } }
+    .tw { animation: twinkle 4s ease-in-out infinite; }
+    @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: .9; } }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .d1 { animation-delay: .1s } .d2 { animation-delay: .3s } .d3 { animation-delay: .5s }
+    .d4 { animation-delay: .7s } .d5 { animation-delay: .9s }
+    .float { animation: bob 6s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    .code { opacity: 0; animation: typeIn .6s ease forwards; }
+    @keyframes typeIn { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .prog { transform-box: fill-box; transform-origin: left center; animation: prog 8s ease-in-out infinite; }
+    @keyframes prog { 0%,40% { transform: scaleX(.12); } 85%,100% { transform: scaleX(1); } }
+    .runBtn { transform-box: fill-box; transform-origin: center; animation: press 8s ease-in-out infinite; }
+    @keyframes press { 0%,38% { transform: scale(1); } 42% { transform: scale(.94); } 48%,100% { transform: scale(1); } }
+    .cursor { animation: move 8s ease-in-out infinite; }
+    @keyframes move {
+      0% { transform: translate(40px, 50px); }
+      36%,42% { transform: translate(0, 0); }
+      80%,100% { transform: translate(40px, 50px); }
+    }
+    .ring { transform-box: fill-box; transform-origin: center; animation: spin 3.6s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .wave { stroke-dasharray: 260; animation: draw 4s ease-in-out infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 260; } 55%,85% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -260; } }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateX(-60px); } to { transform: translateX(1260px); } }
+    .chk { stroke-dasharray: 18; animation: tick 8s ease-in-out infinite; }
+    @keyframes tick { 0%,6% { stroke-dashoffset: 18; } 14%,100% { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .rise, .code { opacity: 1 !important; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <g class="orbA"><circle cx="150" cy="320" r="260" fill="url(#glowB)"/></g>
+    <g class="orbB"><circle cx="1010" cy="40" r="280" fill="url(#glowP)"/></g>
+
+    <!-- twinkle particles -->
+    <g fill="#9db8ff">
+      <circle class="tw" cx="560" cy="48" r="1.8" style="animation-delay:0s"/>
+      <circle class="tw" cx="610" cy="300" r="1.5" style="animation-delay:1.2s"/>
+      <circle class="tw" cx="470" cy="120" r="1.4" style="animation-delay:2.1s"/>
+      <circle class="tw" cx="1170" cy="120" r="1.6" style="animation-delay:.7s"/>
+      <circle class="tw" cx="660" cy="80" r="1.4" style="animation-delay:3s"/>
+      <circle class="tw" cx="30" cy="30" r="1.6" style="animation-delay:1.8s"/>
     </g>
-    <path d="M690 46 a8 8 0 0 1 8 -8 H1122 a8 8 0 0 1 8 8 V72 H690 Z" fill="#ffffff"/>
-    <text x="704" y="60" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#1f1f1f">Form1</text>
-    <text x="1038" y="61" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#1f1f1f">—</text>
-    <rect x="1070" y="50" width="10" height="10" fill="none" stroke="#1f1f1f" stroke-width="1.3"/>
-    <text x="1102" y="61" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#1f1f1f">✕</text>
-    <line x1="690" y1="72" x2="1130" y2="72" stroke="#d9d9d9"/>
 
-    <text x="714" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1f1f1f">Name:</text>
-    <rect x="768" y="88" width="190" height="26" fill="#ffffff" stroke="#8a8a8a"/>
-    <text x="776" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1f1f1f">
-      <tspan>Hello, WinForms</tspan>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.3;0.9;1" dur="8s" repeatCount="indefinite"/>
-    </text>
-
-    <rect x="714" y="130" width="15" height="15" fill="#ffffff" stroke="#6b6b6b"/>
-    <path d="M717 138 l3 3 l6 -7" fill="none" stroke="#0078d4" stroke-width="2.2" stroke-dasharray="14" stroke-dashoffset="14">
-      <animate attributeName="stroke-dashoffset" values="14;14;0;0;14" keyTimes="0;0.2;0.3;0.9;1" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <text x="736" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1f1f1f">Remember me</text>
-
-    <circle cx="886" cy="138" r="8" fill="#ffffff" stroke="#6b6b6b"/>
-    <circle cx="886" cy="138" r="4" fill="#0078d4">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.42;0.9;1" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="902" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1f1f1f">Option</text>
-
-    <rect x="990" y="126" width="116" height="30" rx="4" fill="#0078d4">
-      <animate attributeName="fill" values="#0078d4;#0078d4;#005a9e;#0078d4;#0078d4" keyTimes="0;0.5;0.56;0.64;1" dur="8s" repeatCount="indefinite"/>
-    </rect>
-    <text x="1048" y="146" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#ffffff">Start</text>
-
-    <rect x="714" y="188" width="392" height="14" rx="7" fill="#e1e1e1"/>
-    <g clip-path="url(#bar)">
-      <rect x="714" y="188" width="392" height="14" fill="#0078d4">
-        <animate attributeName="width" values="0;0;392;392;0" keyTimes="0;0.56;0.9;0.97;1" dur="8s" repeatCount="indefinite"/>
-      </rect>
+    <!-- LEFT: text -->
+    <g class="rise d1">
+      <rect x="62" y="68" width="30" height="3" rx="1.5" fill="#4aa3ff"/>
+      <text x="104" y="74" font-size="13" font-weight="600" letter-spacing="2.4" fill="#7fb6ff">C#  ·  WINDOWS FORMS</text>
     </g>
-    <text x="714" y="230" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#6b6b6b">button1_Click(object sender, EventArgs e)</text>
+    <text class="rise d2" x="60" y="152" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#gTitle)">WinForms</text>
+    <text class="rise d3" x="62" y="214" font-size="56" font-weight="300" letter-spacing="-0.5" fill="url(#gSub)">Learning Path</text>
+    <text class="rise d4" x="63" y="256" font-size="18" fill="#9fb0d0">From an empty form to complete desktop applications.</text>
 
-    <g>
-      <path d="M0 0 L0 17 L4.5 13 L7.5 20 L10 19 L7 12 L13 12 Z" fill="#111" stroke="#fff" stroke-width="1"/>
-      <animateTransform attributeName="transform" type="translate"
-        values="1110 228; 1020 146; 1020 146; 916 138; 750 134; 750 134; 1110 228"
-        keyTimes="0;0.2;0.3;0.38;0.48;0.5;1" dur="8s" repeatCount="indefinite"/>
+    <g class="rise d5">
+      <rect x="62.5" y="284.5" width="143" height="38" rx="19" fill="#ffffff" fill-opacity="0.05" stroke="#6f8dff" stroke-opacity="0.35"/>
+      <text x="82" y="309" font-size="17" font-weight="700" fill="#fff">71</text>
+      <text x="107" y="309" font-size="15" fill="#9fb0d0">topics</text>
+
+      <rect x="217.5" y="284.5" width="135" height="38" rx="19" fill="#ffffff" fill-opacity="0.05" stroke="#6f8dff" stroke-opacity="0.35"/>
+      <text x="236" y="309" font-size="17" font-weight="700" fill="#fff">9</text>
+      <text x="252" y="309" font-size="15" fill="#9fb0d0">stages</text>
+
+      <rect x="364.5" y="284.5" width="150" height="38" rx="19" fill="#ffffff" fill-opacity="0.05" stroke="#6f8dff" stroke-opacity="0.35"/>
+      <text x="383" y="309" font-size="17" font-weight="700" fill="#fff">14</text>
+      <text x="409" y="309" font-size="15" fill="#9fb0d0">apps</text>
     </g>
+
+    <!-- RIGHT: editor window -->
+    <g class="float" style="animation-delay:-2s">
+      <g filter="url(#shadow)">
+        <rect x="706" y="28" width="426" height="190" rx="10" fill="#14192b" stroke="#2b3354"/>
+      </g>
+      <rect x="706" y="28" width="426" height="30" rx="10" fill="#1b2136"/>
+      <rect x="706" y="48" width="426" height="10" fill="#1b2136"/>
+      <circle cx="726" cy="43" r="5.5" fill="#ff5f57"/>
+      <circle cx="745" cy="43" r="5.5" fill="#febc2e"/>
+      <circle cx="764" cy="43" r="5.5" fill="#28c840"/>
+      <text x="919" y="47" font-size="12" fill="#7e89aa" text-anchor="middle">Form1.cs</text>
+      <g clip-path="url(#edClip)" class="mono" font-size="13">
+        <g fill="#4a5578">
+          <text x="724" y="88">1</text><text x="724" y="112">2</text><text x="724" y="136">3</text>
+          <text x="724" y="160">4</text><text x="724" y="184">5</text><text x="724" y="208">6</text>
+        </g>
+        <text class="code" style="animation-delay:1s" x="758" y="88"><tspan fill="#569cd6">private void</tspan><tspan fill="#dcdcaa"> btnRun_Click</tspan><tspan fill="#d4d4d4">(</tspan><tspan fill="#4ec9b0">object</tspan><tspan fill="#9cdcfe"> sender</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#4ec9b0">EventArgs</tspan><tspan fill="#9cdcfe"> e</tspan><tspan fill="#d4d4d4">)</tspan></text>
+        <text class="code" style="animation-delay:1.4s" x="758" y="112" fill="#d4d4d4">{</text>
+        <text class="code" style="animation-delay:1.8s" x="780" y="136"><tspan fill="#9cdcfe">progressBar1</tspan><tspan fill="#d4d4d4">.Value = </tspan><tspan fill="#b5cea8">100</tspan><tspan fill="#d4d4d4">;</tspan></text>
+        <text class="code" style="animation-delay:2.2s" x="780" y="160"><tspan fill="#9cdcfe">lblStatus</tspan><tspan fill="#d4d4d4">.Text = </tspan><tspan fill="#ce9178">"Done"</tspan><tspan fill="#d4d4d4">;</tspan></text>
+        <text class="code" style="animation-delay:2.6s" x="758" y="184" fill="#d4d4d4">}</text>
+        <rect class="caret" x="772" y="194" width="7" height="14" fill="#6aa8ff"/>
+      </g>
+    </g>
+
+    <!-- Form1 window -->
+    <g class="float" style="animation-delay:-4s">
+      <g filter="url(#shadow)">
+        <rect x="630" y="112" width="300" height="196" rx="9" fill="#f6f8fc"/>
+      </g>
+      <rect x="630" y="112" width="300" height="34" rx="9" fill="#ffffff"/>
+      <rect x="630" y="136" width="300" height="10" fill="#ffffff"/>
+      <rect x="643" y="123" width="11" height="11" rx="2" fill="#0b63c8"/>
+      <text x="663" y="133" font-size="13" fill="#1d2433">Form1</text>
+      <g stroke="#1d2433" stroke-width="1.3" fill="none" stroke-linecap="round">
+        <path d="M843 129h10"/>
+        <rect x="872.5" y="124.5" width="10" height="10"/>
+        <path d="M902 124l10 10M912 124l-10 10"/>
+      </g>
+      <line x1="630" y1="146" x2="930" y2="146" stroke="#e2e6ef"/>
+
+      <text x="653" y="176" font-size="14" fill="#3a4258">Task</text>
+      <rect x="693.5" y="158.5" width="215" height="24" rx="4" fill="#fff" stroke="#c9d0df"/>
+      <text x="703" y="176" font-size="14" fill="#1d2433">Build my first app</text>
+
+      <rect x="653.5" y="196.5" width="14" height="14" rx="3" fill="#0b63c8" stroke="#0b63c8"/>
+      <path class="chk" d="M657 204l3 3 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="675" y="208" font-size="14" fill="#3a4258">Remember me</text>
+
+      <g class="runBtn">
+        <rect x="809" y="192" width="100" height="26" rx="4" fill="#0b63c8"/>
+        <text x="859" y="210" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Run</text>
+      </g>
+
+      <rect x="653" y="250" width="256" height="8" rx="4" fill="#dfe3ec"/>
+      <rect class="prog" x="653" y="250" width="256" height="8" rx="4" fill="#0b63c8"/>
+
+      <!-- cursor -->
+      <g class="cursor">
+        <path d="M858 210l0 17 4.5-4 3 7 3-1.3-3-6.8 6 0z" fill="#111" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- GDI+ card -->
+    <g class="float" style="animation-delay:-1s">
+      <g filter="url(#shadow)">
+        <rect x="946" y="164" width="214" height="152" rx="10" fill="#10162a" stroke="#2b3354"/>
+      </g>
+      <rect x="946" y="164" width="214" height="28" rx="10" fill="#1b2136"/>
+      <rect x="946" y="182" width="214" height="10" fill="#1b2136"/>
+      <text x="962" y="183" font-size="12" fill="#8c97b8">GDI+ · OnPaint</text>
+      <g clip-path="url(#gdiClip)">
+        <g stroke="#6f8dff" stroke-opacity="0.12">
+          <path d="M946 216h214M946 244h214M946 272h214M946 300h214"/>
+        </g>
+        <circle cx="1007" cy="254" r="32" fill="none" stroke="#252d4a" stroke-width="9"/>
+        <circle class="ring" cx="1007" cy="254" r="32" fill="none" stroke="url(#gRing)" stroke-width="9" stroke-linecap="round" stroke-dasharray="120 201"/>
+        <path class="wave" d="M1068 270 C1078 270 1080 232 1090 232 C1100 232 1102 270 1112 270" fill="none" stroke="#7fa6ff" stroke-width="3" stroke-linecap="round"/>
+        <path d="M1062 270h60" stroke="#3a4570" stroke-width="1.2"/>
+      </g>
+    </g>
+
+    <!-- bottom accent -->
+    <rect x="0" y="336" width="1200" height="4" fill="url(#gLine)" opacity="0.7"/>
+    <rect class="scan" x="0" y="336" width="60" height="4" fill="#cfe0ff" opacity="0.55"/>
   </g>
-
-  <path d="M0,290.0 L20,291.9 L40,293.7 L60,295.3 L80,296.7 L100,297.8 L120,298.6 L140,299.0 L160,299.0 L180,298.6 L200,297.8 L220,296.7 L240,295.3 L260,293.7 L280,291.9 L300,290.0 L320,288.1 L340,286.3 L360,284.7 L380,283.3 L400,282.2 L420,281.4 L440,281.0 L460,281.0 L480,281.4 L500,282.2 L520,283.3 L540,284.7 L560,286.3 L580,288.1 L600,290.0 L620,291.9 L640,293.7 L660,295.3 L680,296.7 L700,297.8 L720,298.6 L740,299.0 L760,299.0 L780,298.6 L800,297.8 L820,296.7 L840,295.3 L860,293.7 L880,291.9 L900,290.0 L920,288.1 L940,286.3 L960,284.7 L980,283.3 L1000,282.2 L1020,281.4 L1040,281.0 L1060,281.0 L1080,281.4 L1100,282.2 L1120,283.3 L1140,284.7 L1160,286.3 L1180,288.1 L1200,290.0 L1220,291.9 L1240,293.7 L1260,295.3 L1280,296.7 L1300,297.8 L1320,298.6 L1340,299.0 L1360,299.0 L1380,298.6 L1400,297.8 L1420,296.7 L1440,295.3 L1460,293.7 L1480,291.9 L1500,290.0 L1520,288.1 L1540,286.3 L1560,284.7 L1580,283.3 L1600,282.2 L1620,281.4 L1640,281.0 L1660,281.0 L1680,281.4 L1700,282.2 L1720,283.3 L1740,284.7 L1760,286.3 L1780,288.1 L1800,290.0 L1820,291.9 L1800,320 L0,320 Z" fill="#1f9cf0" opacity="0.22"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="14s" repeatCount="indefinite"/></path>
-  <path d="M0,310.4 L20,309.6 L40,308.6 L60,307.4 L80,306.1 L100,304.7 L120,303.2 L140,301.8 L160,300.4 L180,299.3 L200,298.3 L220,297.6 L240,297.1 L260,297.0 L280,297.2 L300,297.6 L320,298.4 L340,299.4 L360,300.6 L380,301.9 L400,303.3 L420,304.8 L440,306.2 L460,307.6 L480,308.7 L500,309.7 L520,310.4 L540,310.9 L560,311.0 L580,310.8 L600,310.4 L620,309.6 L640,308.6 L660,307.4 L680,306.1 L700,304.7 L720,303.2 L740,301.8 L760,300.4 L780,299.3 L800,298.3 L820,297.6 L840,297.1 L860,297.0 L880,297.2 L900,297.6 L920,298.4 L940,299.4 L960,300.6 L980,301.9 L1000,303.3 L1020,304.8 L1040,306.2 L1060,307.6 L1080,308.7 L1100,309.7 L1120,310.4 L1140,310.9 L1160,311.0 L1180,310.8 L1200,310.4 L1220,309.6 L1240,308.6 L1260,307.4 L1280,306.1 L1300,304.7 L1320,303.2 L1340,301.8 L1360,300.4 L1380,299.3 L1400,298.3 L1420,297.6 L1440,297.1 L1460,297.0 L1480,297.2 L1500,297.6 L1520,298.4 L1540,299.4 L1560,300.6 L1580,301.9 L1600,303.3 L1620,304.8 L1640,306.2 L1660,307.6 L1680,308.7 L1700,309.7 L1720,310.4 L1740,310.9 L1760,311.0 L1780,310.8 L1800,310.4 L1820,309.6 L1800,320 L0,320 Z" fill="#7fd0ff" opacity="0.16"><animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="19s" repeatCount="indefinite"/></path>
-
-  <g>
-    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="1.2s" fill="freeze"/>
-    <text x="70" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">WinForms</text>
-    <text x="70" y="182" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#4cc2ff" letter-spacing="-1">Learning Path</text>
-  </g>
-  <text x="72" y="226" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#bfe3ff" letter-spacing="1">Controls  ·  Events  ·  GDI+  ·  MDI  ·  SQL Server  ·  Desktop apps
-    <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="1.2s" fill="freeze"/>
-  </text>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="none" stroke="#2b3354" stroke-opacity="0.8"/>
 </svg>
